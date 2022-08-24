@@ -1,10 +1,12 @@
 import './App.css';
-import LandingPage from './components/pages/landing/Landing.tsx'
+import LandingPage from './components/pages/landing/Landing.jsx'
+import About from './components/pages/about/About.jsx';
 
 function App() {
   return (
     <div className="Golemec">
-       <LandingPage />
+      <LandingPage />
+      <About/>
     </div>
 
   );
