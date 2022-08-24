@@ -1,16 +1,18 @@
 body {
-  background-image: url('../../../../public/images/sand.jpg');
+  /* background-image: url('../../../../public/images/neons.jpg'); */
+  background-color: black
 }
 
 
 .golem-landing {
   display: grid;
   grid-template-columns: 6fr  4fr;
-  height: 100vh
+  height: 100vh;
+  
 }
 
 
-.text-container {
+.landing-text-container {
   grid-column-start: 1;
   grid-column-end: 2;
   margin: auto;

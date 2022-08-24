@@ -1,0 +1,55 @@
+.golem-about {
+  display: grid;
+  grid-template-columns: 4fr  6fr;
+  height: 100vh;
+}
+
+.img-container {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin: auto;
+  width: 100%;
+  margin: 0 0 0 50px;
+  vertical-align: middle;
+}
+
+.image {
+  width: 80%;
+  height: 90vh
+}
+
+.about-text-container {
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  display: grid;
+  grid-template-columns: 1fr  1fr 1fr;
+  grid-template-rows: 3fr 7fr;
+  margin: auto;
+  width: 90%;
+}
+
+.main-txt {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.main-txt-title {
+  font-size: 20px;
+}
+
+.main-txt-sub {
+
+}
+
+.card-main {
+
+}
+
+.card-title {
+
+}
+
+.card-txt {
+
+}
