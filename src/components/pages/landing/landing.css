@@ -1,0 +1,47 @@
+body {
+  background-image: url('../../../../public/images/sand.jpg');
+}
+
+
+.golem-landing {
+  display: grid;
+  grid-template-columns: 6fr  4fr;
+  height: 100vh
+}
+
+
+.text-container {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin: auto;
+  width: 90%;
+}
+
+.title {
+  font-size: 115px;
+  margin: auto;
+}
+
+.subtitle {
+  font-size: 65px;
+  margin: auto;
+}
+
+.text {
+  font-size: 25px
+}
+
+.icon-container {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin: auto;
+  width: 90%;
+  
+}
+
+.icon {
+  height: 200px;
+  width: 200px;
+  background-color: #555;
+  margin: 0 auto;
+}
