@@ -1,0 +1,56 @@
+.golem-services {
+  height: 100vh;
+  background-image: url("../../../images/bush.jpg");
+}
+
+.service-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+  justify-items: center;
+  height: 100%;
+}
+
+.service-card1-main {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 75%;
+  background: rgba(217, 217, 217, 0.2);
+  margin: 50%;
+  border-radius: 4px;
+}
+
+.service-card2-main {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 75%;
+  background: rgba(217, 217, 217, 0.2);
+  margin: 50%;
+      border-radius: 4px;
+}
+
+.service-card3-main {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width: 75%;
+  background: rgba(217, 217, 217, 0.2);
+  margin: 50%;
+
+}
+
+.title-service-card {
+  text-align: center;
+}
+
+.text-service-card {
+  padding: 24px;
+}
+
+.server-img-container {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  width: 261px;
+  height: 518px;
+  margin: 50%;
+  object-fit: cover;
+}
