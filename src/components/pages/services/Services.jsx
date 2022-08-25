@@ -39,10 +39,10 @@ const Services = () => {
   return (
     <div className="golem-services">
       
-      <div className="service-card-container">
+      <div className="service-cards-container">
         <div className="service-card1-main">
           <div className="title-service-card">
-            <h2>Service 1</h2>
+            <h2>Site web</h2>
           </div>
           <div className="text-service-card">
             <p>1Lorem Ipsum is simply dummy text of the printing and typesetting industry.1Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -51,7 +51,7 @@ const Services = () => {
 
         <div className="service-card2-main">
           <div className="title-service-card">
-            <h2>Service 2</h2>
+            <h2>Opsec</h2>
           </div>
           <div className="text-service-card">
             <p>sum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -60,7 +60,7 @@ const Services = () => {
 
         <div className="service-card3-main">
           <div className="title-service-card">
-            <h2>Service 3</h2>
+            <h2>Optimisation</h2>
           </div>
           <div className="text-service-card">
             <p>1Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
