@@ -13,20 +13,32 @@
   vertical-align: middle;
 }
 
-.image {
+.image-neon {
   width: 80%;
-  height: 90vh
+  height: 90vh;
+  margin: 13% 0 0;
+  animation: flicker 1s linear infinite;
 }
+
+@keyframes flicker {
+	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+		//text-shadow: none;
+    opacity: .99;
+		
+	}
+
+}
+
 
 .about-text-container {
   grid-column-start: 2;
   grid-column-end: 3;
-
   display: grid;
   grid-template-columns: 1fr  1fr 1fr;
   grid-template-rows: 3fr 7fr;
   margin: auto;
-  width: 90%;
+  width: 75%;
+  margin: 33% 0 0 0;
 }
 
 .main-txt {

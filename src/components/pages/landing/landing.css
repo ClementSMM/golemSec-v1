@@ -1,5 +1,4 @@
 body {
-  /* background-image: url('../../../../public/images/neons.jpg'); */
   background-color: black
 }
 
@@ -8,7 +7,7 @@ body {
   display: grid;
   grid-template-columns: 6fr  4fr;
   height: 100vh;
-  
+  background-image: url('../../../images/sand.jpg');
 }
 
 
