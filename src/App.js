@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="Golemec">
       <Navbar/>
-      {/* <LandingPage />
+      <LandingPage />
       <About/>
-      <Services/> */}
+      <Services/>
       <Quote/>
     </div>
 

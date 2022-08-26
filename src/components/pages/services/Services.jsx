@@ -67,7 +67,7 @@ const Services = () => {
           </div>
         </div> 
         
-        <img src={require('../../../images/server.jpg')} alt="" className="server-img-container" />
+        <img src={require('../../../images/illustration/server.jpg')} alt="" className="server-img-container" />
         
       </div>
 

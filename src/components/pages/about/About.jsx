@@ -22,7 +22,7 @@ const About = () => {
   return(
     <div className="golem-about">
       <div className="img-container">
-        <img className="image-neon" src={require('../../../images/neon2.png')} alt=""/>
+        <img className="image-neon" src={require('../../../images/illustration/neon2.png')} alt=""/>
       </div>
       <div className="about-text-container">
         <div className="main-txt">
