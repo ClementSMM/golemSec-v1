@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 
 const CardComponent = (props) => {
@@ -11,4 +11,4 @@ const CardComponent = (props) => {
   );
 }
 
-export default CardComponent;
+export default CardComponent; */

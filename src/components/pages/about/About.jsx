@@ -1,5 +1,5 @@
 import React from "react";
-import CardComponent from "../../layout/card/Card.jsx"
+/* import CardComponent from "../../layout/card/Card.jsx" */
 
 import "./about.css"
 
