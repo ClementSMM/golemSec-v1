@@ -7,7 +7,7 @@ body {
   display: grid;
   grid-template-columns: 6fr  4fr;
   height: 100vh;
-  background-image: url('../../../images/sand.jpg');
+  background-image: url('../../../images/background/img1.jpg');
 }
 
 
