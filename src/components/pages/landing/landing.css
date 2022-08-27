@@ -37,7 +37,6 @@ body {
   grid-column-end: 3;
   margin: auto;
   width: 90%;
-  
 }
 
 .icon {
@@ -45,4 +44,34 @@ body {
   width: 200px;
   background-color: #555;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    visibility: hidden
+  }
+}
+@media screen and (max-width: 375px) {
+  .landing-text-container {
+    margin: auto;
+  }
+
+.title {
+  font-size: 55px;
+  margin: auto;
+  display: flex;
+
+}
+
+.subtitle {
+  font-size: 30px;
+  margin: auto;
+}
 }
