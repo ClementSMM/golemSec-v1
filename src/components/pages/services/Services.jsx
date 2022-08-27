@@ -37,7 +37,7 @@ const Services = () => {
   } */
 
   return (
-    <div className="golem-services">
+    <div id="service" className="golem-services">
       
       <div className="service-cards-container">
         <div className="service-card1-main">

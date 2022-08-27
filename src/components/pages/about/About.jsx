@@ -21,8 +21,6 @@ const About = () => {
   ]
   return(
     <div  className="golem-about">
-      <div className="img-container">
-      </div>
       <div className="about-text-container">
         <div className="main-txt">
           <div className="main-txt-title">
@@ -32,6 +30,7 @@ const About = () => {
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
           </div>
         </div>
+        <div className="card-master">
         <div className="card-main">
           {/* {cards.map(card => {
             <CardComponent 
@@ -62,10 +61,10 @@ const About = () => {
             <p>vfnjeomnveznfoire</p>
           </div>
         </div>
-        
-      </div>
+        </div>
+        </div>
+        </div>
       
-    </div>
   )
 }
 
