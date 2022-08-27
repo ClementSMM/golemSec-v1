@@ -24,28 +24,28 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail} className="contact-form-main">
 
           <div className="input-form">
-            <label>Nom</label>
-            <input type="text" name="user_last_name" className="input-name" />
+            <label className="label-form">Nom</label>
+            <input type="text" name="user_last_name" className="input" />
           </div>
 
           <div className="input-form">
-            <label>Prénom</label>
-            <input type="text" name="user_first_name" className="input-name" />
+            <label className="label-form">Prénom</label>
+            <input type="text" name="user_first_name" className="input" />
           </div>
 
           <div className="input-form">
-            <label>Email</label>
-            <input type="email" name="user_email" required/>
+            <label className="label-form">Email</label>
+            <input type="email" name="user_email" className="input" required/>
           </div>
 
           <div className="input-form">
-            <label>Telephone</label>
-            <input type="tel" id="phone" name="user_phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
+            <label className="label-form">Telephone</label>
+            <input type="tel" id="phone" name="user_phone" className="input" placeholder="" />
           </div>
 
           <div className="input-form">
-            <label>Status</label>
-            <select name="user_status" id="pet-select">
+            <label className="label-form">Status</label>
+            <select name="user_status" id="pet-select" className="input">
               <option value="">Choisissez votre status</option>
               <option value="Entreprise">Entreprise</option>
               <option value="Particulier">Particulier</option>
@@ -53,13 +53,13 @@ const Contact = () => {
           </div>
 
           <div className="input-form">
-            <label>Nom de l'entreprise</label>
-            <input type="user_corp" name="user_email" />
+            <label className="label-form">Nom de l'entreprise</label>
+            <input type="user_corp" name="user_email" className="input"/>
           </div>
 
           <div className="input-form">
-            <label>Services</label>
-            <select name="user_service" id="user_service" required>
+            <label className="label-form">Services</label>
+            <select name="user_service" id="user_service" className="input" required>
               <option value="">Service souhaité</option>
               <option value="site vitrine">Site vitrine</option>
               <option value="site e-commerce">Site e-commerce</option>
@@ -69,8 +69,8 @@ const Contact = () => {
           </div>
           
           <div className="input-form">
-            <labels>Methode de contact</labels>
-            <select name="contact_method" id="contact_methode" required>
+            <labels className="label-form">Methode de contact</labels>
+            <select name="contact_method" id="contact_methode" className="input" required>
               <option value="">selectionner</option>
               <option value="telephone">Telephone</option>
               <option value="mail">Mail</option>
@@ -78,8 +78,8 @@ const Contact = () => {
           </div>
 
           <div className="input-form">
-            <labels>Comment nous avez vous connus ?</labels>
-            <select name="discover_method" id="discover_method" required>
+            <labels className="label-form">Comment nous avez vous connus ?</labels>
+            <select name="discover_method" id="discover_method" className="input" required>
               <option value="">Selectionner</option>
               <option value="Bouche à oreille">Bouche à oreille</option>
               <option value="internet">Internet</option>
@@ -87,17 +87,17 @@ const Contact = () => {
             </select>
           </div>
           
-          <div className="input-form">
-            <label>Message</label>
-            <input type="user_message" name="user_message" />
+          <div className="input-text-form">
+            <label className="label-form">Message</label>
+            <textarea  type="user_message" name="user_message" className="input-text"/>
           </div>
 
-          <div>
-            <input type="submit" value="Send" />
+          <div className="form-submit">
+            <input type="submit" value="Send" className="submit" />
           </div>
         </form>
       </div>
-
+      
 
       <div className="contact-txt-container">
         <p>vnfdhjknv</p>
