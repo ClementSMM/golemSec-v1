@@ -1,0 +1,127 @@
+.golem-contact {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+}
+
+.contact-form-container {
+  height: 105vh;
+}
+
+.contact-form-main {
+  display: grid; 
+  height: 60%;
+  margin: 23% 10% 0% 10%;
+  grid-template-columns: 1fr  1fr;
+  grid-template-rows: 1fr  1fr 1fr 1fr 1fr 4fr 1fr;
+}
+
+.input-form {
+  display: grid;
+  margin: 17px;
+}
+
+.input-text-form {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: grid;
+  grid-template-rows : 1fr 4fr;
+  margin: 17px;
+}
+
+.label-form{
+  margin: 5px;
+}
+
+.input {
+  background-color: rgba(217, 217, 217, 0);
+  border: 2px solid;
+  border-radius: 4px;
+  color:  rgba(217, 217, 217, 0.5);
+  font: inherit;
+  padding: 0 .5em;
+  width: 100%;
+  height: 160%;
+}
+
+.input-text {
+  background-color: rgba(217, 217, 217, 0);
+  border: 2px solid;
+  border-radius: 6px;
+  color:  rgba(217, 217, 217, 0.5);
+  font: inherit;
+  padding: 0 .5em;
+  width: 100%;
+}
+
+.submit {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid rgba(217, 217, 217, 0.5);
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: rgba(217, 217, 217, 0.5);;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 15px 0 0 10px;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 70%;
+  will-change: transform;
+}
+
+.submit:disabled {
+  pointer-events: none;
+}
+
+.submit:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.submit:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.form-submit {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+.contact-txt-container {
+  height: 50%;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(217, 217, 217, 0.2);
+}
+@media screen and (max-width: 752px) {
+
+.contact-txt-container {
+  margin-top: 130px;
+  height: 250px;
+}
+.contact-form-main {
+  grid-template-columns: 1fr;
+}
+
+.golem-contact {
+  grid-template-columns: 1fr;
+}
+
+}
+
