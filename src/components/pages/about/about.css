@@ -1,15 +1,26 @@
 .golem-about {
   display: grid;
   grid-template-columns: 4fr  6fr;
-  height: 110vh;
-  background-image: url('../../../images/illustration/neon2.png');
+  height: 100vh;
+  background: url('../../../images/illustration/neon2.png');
+  background-size: 1680px;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+@keyframes flicker {
+	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+		//text-shadow: none;
+    opacity: .99;
+		
+	}
+
 }
 
 .about-text-container {
   grid-column-start: 2;
   grid-column-end: 3;
   display: grid;
-  grid-template-columns: 1fr  1fr 1fr;
   grid-template-rows: 3fr 7fr;
   margin: auto;
   width: 75%;
@@ -27,11 +38,16 @@
 }
 
 .main-txt-sub {
+  
+}
 
+.card-master {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card-main {
-
+  margin-right: 5px;
 }
 
 .card-title {
@@ -41,3 +57,44 @@
 .card-txt {
 
 }
+
+@media screen and (max-width: 1200px) {
+  .golem-about {
+    background-size: 1200px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .golem-about {
+    background: black;
+      display: grid;
+      grid-template-columns: 2fr  6fr;
+    }
+
+  .about-text-container {
+    margin: 10% 0 0 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .golem-about {
+      grid-template-columns: 1fr  5fr;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .main-txt {
+      font-size: 12px;
+    }
+    .main-txt-title {
+      font-size: 15px;
+    }
+    .card-master{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+}
+

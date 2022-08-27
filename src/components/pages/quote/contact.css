@@ -29,3 +29,18 @@
   margin: auto;
   background-color: rgba(217, 217, 217, 0.2);
 }
+@media screen and (max-width: 752px) {
+
+.contact-txt-container {
+  margin-top: 130px;
+  height: 250px;
+}
+.contact-form-main {
+  grid-template-columns: 1fr;
+}
+
+.golem-contact {
+  grid-template-columns: 1fr;
+}
+
+}

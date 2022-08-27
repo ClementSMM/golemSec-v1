@@ -71,3 +71,56 @@
   object-fit: cover;
   border-radius: 4px;
 }
+
+@media screen and (max-width: 992px) {
+  .golem-services {
+    height: 100%;
+  }
+  .server-img-container {
+    display: none;
+    
+  }
+  .service-cards-container {
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .service-cards-container {
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 0.5px;
+  }
+  .text-service-card {
+    padding: 5px;
+  }
+  h2{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .service-cards-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: auto;
+  }
+  .text-service-card {
+    padding: 5px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .service-card1-main {
+    margin: 10%;
+  }
+  .service-card2-main {
+    margin: 10%;
+  }
+  .service-card3-main {
+    margin: 10%;
+  }
+
+}

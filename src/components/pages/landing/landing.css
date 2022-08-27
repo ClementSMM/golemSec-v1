@@ -1,3 +1,14 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  background-color: black
+  scr
+}
+
+
 .golem-landing {
   display: grid;
   grid-template-columns: 6fr  4fr;
@@ -53,7 +64,24 @@
     visibility: hidden
   }
 }
+@media screen and (max-width: 576px) {
+
+.title {
+  font-size: 80px;
+  margin: auto;
+  display: flex;
+
+}
+
+.subtitle {
+  font-size: 45px;
+  margin: auto;
+}
+}
 @media screen and (max-width: 375px) {
+  body{
+    width: 100%;
+  }
   .landing-text-container {
     margin: auto;
   }
