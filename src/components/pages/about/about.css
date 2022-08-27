@@ -1,34 +1,9 @@
 .golem-about {
   display: grid;
   grid-template-columns: 4fr  6fr;
-  height: 100vh;
+  height: 110vh;
+  background-image: url('../../../images/illustration/neon2.png');
 }
-
-.img-container {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  margin: auto;
-  width: 100%;
-  margin: 0 0 0 50px;
-  vertical-align: middle;
-}
-
-.image-neon {
-  width: 80%;
-  height: 90vh;
-  margin: 13% 0 0;
-  animation: flicker 1s linear infinite;
-}
-
-@keyframes flicker {
-	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
-		//text-shadow: none;
-    opacity: .99;
-		
-	}
-
-}
-
 
 .about-text-container {
   grid-column-start: 2;
@@ -39,6 +14,7 @@
   margin: auto;
   width: 75%;
   margin: 33% 0 0 0;
+  z-index: 1;
 }
 
 .main-txt {
