@@ -21,7 +21,7 @@ const About = () => {
               <h3>securite</h3>
             </div>
             <div className="card-txt">
-              <p>vfnjeomnveznfoire</p>
+              <p>vfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoire</p>
             </div>
           </div>
           <div className="card-main">
@@ -29,7 +29,7 @@ const About = () => {
               <h3>anonymat</h3>
             </div>
             <div className="card-txt">
-              <p>vfnjeomnveznfoire</p>
+              <p className="txt">vfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoire</p>
             </div>
           </div>
           <div className="card-main">
@@ -37,7 +37,7 @@ const About = () => {
               <h3>confidentialite</h3>
             </div>
             <div className="card-txt">
-              <p>vfnjeomnveznfoire</p>
+              <p>vfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoire</p>
             </div>
           </div>
         </div>
