@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr  1fr;
   background-image: url('../../../images/background/img2.jpg');
+  
 }
 
 .contact-form-container {

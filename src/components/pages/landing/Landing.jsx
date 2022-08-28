@@ -10,8 +10,7 @@ const LandingPage = () => {
         <p className="text"></p>
       </div>
       <div className="icon-container">
-        <div className="icon">
-        </div>
+          <img className="icon"src={require("../../../images/logo/GolemL.png")} alt="GolemSec" />
       </div>
     </div>
   )

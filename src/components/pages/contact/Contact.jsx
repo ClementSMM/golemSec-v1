@@ -19,7 +19,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="golem-contact">
+    <div id="contact"className="golem-contact">
       <div className="contact-form-container">
         <form ref={form} onSubmit={sendEmail} className="contact-form-main">
 
