@@ -1,5 +1,5 @@
 .golem-contact {
-  height: 100vh;
+  height: 105vh;
   display: grid;
   grid-template-columns: 1fr  1fr;
   background-image: url('../../../images/background/img2.jpg');
@@ -13,7 +13,7 @@
 .contact-form-main {
   display: grid; 
   height: 60%;
-  margin: 23% 10% 0% 10%;
+  margin: 10% 10% 0% 10%;
   grid-template-columns: 1fr  1fr;
   grid-template-rows: 1fr  1fr 1fr 1fr 1fr 4fr 1fr;
 }
@@ -111,19 +111,60 @@
   margin: auto;
   background-color: rgba(217, 217, 217, 0.2);
 }
-@media screen and (max-width: 752px) {
 
-.contact-txt-container {
-  margin-top: 130px;
-  height: 250px;
-}
-.contact-form-main {
-  grid-template-columns: 1fr;
-}
+@media screen and (max-width: 1200px) {
+  .golem-contact {
+    display: block;
+    height: 120vh;
+  }
 
-.golem-contact {
-  grid-template-columns: 1fr;
+  .contact-txt-container {
+    display: none;
+  }
 }
 
+@media screen and (max-width: 992px) {
+  .golem-contact {
+    display: block;
+    height: 75vh
+  }
+
+  .contact-txt-container {
+    display: none;
+  }
+  .contact-form-container {
+    height: 80vh;
+  }
 }
 
+
+@media screen and (max-width: 576px) {
+  .golem-contact {
+    display: block;
+    height: 130vh;
+  }
+
+  .contact-txt-container {
+    display: none;
+  }
+
+  .contact-form-main {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .golem-contact {
+    display: block;
+    height: 140vh;
+  }
+
+  .contact-txt-container {
+    display: none;
+  }
+
+  .contact-txt-container {
+    display: none;
+  }
+
+}
