@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .golem-about {
   display: grid;
   grid-template-columns: 4fr  6fr;
@@ -15,7 +19,7 @@
   grid-template-rows: 1fr 9fr;
   margin: auto;
   width: 65%;
-  margin: 225px 0 0 0;
+  margin: 280px 0 0 0;
   z-index: 1;
 }
 
@@ -52,10 +56,20 @@
 
 }
 
+@media screen and (max-width: 1650px) {
+  .about-text-container {
+    margin: 169px 0 0 0;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .golem-about {
     background-size: 1200px;
     background-repeat: no-repeat;
+  }
+
+  .about-text-container {
+    margin: 100px 0 0 0;
   }
 }
 
@@ -76,7 +90,7 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
   .golem-about {
     background: black;
     display: block;
@@ -109,8 +123,7 @@
 
   .golem-about {
     background: black;
-    display: block;
-    height: 120vh;
+    height: 145vh;
     text-align: center;
   }
 
@@ -121,18 +134,19 @@
 
   .main-txt {
     font-size: 12px;
+    margin-bottom: 50px;
   }
   .main-txt-title {
     font-size: 15px;
   }
 
   .card-main {
-    margin: 40px;
+    margin-left: 30px;
     width: 170px;
     word-wrap: break-word;
   }
   .card-master{
-    display: flow-root;
+    display: block;
     flex-direction: column;
     justify-content: center;
   }

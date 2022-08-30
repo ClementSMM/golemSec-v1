@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .golem-services {
   height: 100vh;
   background-image: url("../../../images/background/img3.png");

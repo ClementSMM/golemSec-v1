@@ -5,7 +5,8 @@ const LandingPage = () => {
   return(
     <header>
       <div className="wrapHead">
-        <div id="brand">
+        <div>
+          <img id="brand" src={require('../../../images/logo/GolemM.png')} alt='logo'/>
         </div>
         <div className="link">
           <nav>
