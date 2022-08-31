@@ -1,4 +1,4 @@
-ul{
+/* ul{
   list-style-type: none;
 }
 .wrapHead{
@@ -24,7 +24,8 @@ header:after{
   clear: both;
 }
 header.fixed-to-top{
-  background: rgba(38, 50, 56, 1);
+  bac
+  color: white;kground: rgba(38, 50, 56, 1);
 }
 #brand{
   margin-top: 0.25%;
@@ -78,7 +79,8 @@ section h2{
 
 }
 
-@media screen and (max-width: 992px) {
+@me
+color: white;dia screen and (max-width: 992px) {
   #brand{
     margin-top: 0.25%;
     margin: 0.25% 10px;
@@ -101,7 +103,8 @@ section h2{
     width: 100%;
   }
 
-  #brand{
+  
+  color: white;#brand{
     margin-top: 0.25%;
     height: 50px;
     width: 100px;
@@ -112,3 +115,52 @@ section h2{
   }
 }
 
+ */
+
+ ---------------------------------------------------------------
+
+
+  
+  img, svg {
+    vertical-align: middle;
+    height: 71px;
+  }
+
+  .bg-light {
+    --bs-bg-opacity: 0;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: #F1EBE5;
+  }
+  .navbar-toggler {
+  
+    background-color: white;
+    background: rgba(217, 217, 217, 0.5);
+  
+  }
+  .navbar-nav {
+    color: #F1EBE5;
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #F1EBE5;
+    text-align: center;
+    //background-color: white;
+    background-color: rgba(217, 217, 217, 0.5);
+    height: 100vh;
+  }
+/*
+
+
+
+
+
+
+.navbar-collapse {
+ poisition: fixed;
+}
+
+@media screen and (max-width: 992px) {
+  
+
+} */

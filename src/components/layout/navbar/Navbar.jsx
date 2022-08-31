@@ -3,7 +3,36 @@ import "./navbar.css";
 
 const LandingPage = () => {
   return(
-    <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <img id="brand" src={require('../../../images/logo/GolemM.png')} alt='logo'/>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">À Propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  )
+}
+export default LandingPage;
+   
+
+
+
+/*  <header>
       <div className="wrapHead">
         <div>
           <img id="brand" src={require('../../../images/logo/GolemM.png')} alt='logo'/>
@@ -18,7 +47,4 @@ const LandingPage = () => {
           </nav>
         </div>
       </div> 
-    </header>
-  )
-}
-export default LandingPage;
+    </header> */
