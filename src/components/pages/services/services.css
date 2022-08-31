@@ -105,13 +105,13 @@ html {
     margin-bottom: 0;
   }
   .service-card1-main {
-    margin: 10%;
+    margin: 0 auto;
   }
   .service-card2-main {
-    margin: 10%;
+    margin: 0 auto;
   }
   .service-card3-main {
-    margin: 10%;
+    margin: 0 auto;
   }
 
 }
@@ -134,13 +134,13 @@ html {
     margin-bottom: 0;
   }
   .service-card1-main {
-    margin: 10%;
+    margin: 0 auto;
   }
   .service-card2-main {
-    margin: 10%;
+    margin: 0 auto;
   }
   .service-card3-main {
-    margin: 10%;
+    margin: 0 auto;
   }
 
 }
@@ -161,13 +161,13 @@ html {
     margin-bottom: 0;
   }
   .service-card1-main {
-    margin: 10%;
+    margin: 0 auto;
   }
   .service-card2-main {
-    margin: 10%;
+    margin: 0 auto;
   }
   .service-card3-main {
-    margin: 10%;
+    margin: 0 auto;
   }
 
 }
