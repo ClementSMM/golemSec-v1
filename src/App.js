@@ -9,7 +9,7 @@ import Footer from './components/layout/footer/Footer.jsx';
 function App() {
   return (
     <div className="Golemec">
-      <div style={{ position: "fixed" }}>
+      <div style={{ position: "fixed", width: "100%" }}>
         <Navbar/>
       </div>
       <LandingPage />
