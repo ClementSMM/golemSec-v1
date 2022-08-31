@@ -12,7 +12,15 @@ const About = () => {
             <h1>securite et anonimat</h1>
           </div>
           <div className="main-txt-sub">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+            <p>
+              De l’esprit de ces acteurs (hommes de lois, experts en informatique, en crypto-monnaie) Golem Sec est née. <br /> 
+            </p>
+            <p>
+              La volonté première et principale de notre société est de préserver l’anonymat et l’intégrité de tous sur les réseaux internet comme dans la vie privée. Nous nous engageons à vous proposer des services totalement sécurisés et sur-mesure. <br /> 
+            </p>
+            <p>
+              Un suivi rigoureux, complet et personnalisé est alors effectué sur vos projets.
+            </p>
           </div>
         </div>
         <div className="card-master">
@@ -41,6 +49,7 @@ const About = () => {
             </div>
           </div>
         </div>
+     
       </div>
     </div>
       

@@ -4,7 +4,7 @@ html {
 
 .golem-about {
   display: grid;
-  grid-template-columns: 4fr  6fr;
+  grid-template-columns: 3fr  6fr;
   height: 110vh;
   background: url('../../../images/illustration/neon2.png');
   background-size: 100%;
@@ -69,15 +69,28 @@ html {
   }
 
   .about-text-container {
-    margin: 100px 0 0 0;
+    margin: 135px 0 0 0;
   }
+
+  .about-text-container  h1 {
+    font-size: 20px;
+  }
+
+  .about-text-container  h3 {
+    font-size: 15px;
+  }
+  
+  .about-text-container  p {
+    font-size: 13px;
+  }
+  
 }
 
 @media screen and (max-width: 992px) {
   .golem-about {
     background: black;
     display: block;
-    height: 450px
+    height: 60vh;
   }
 
   .about-text-container {
@@ -94,7 +107,7 @@ html {
   .golem-about {
     background: black;
     display: block;
-    height: 100vh;
+    height: 135vh;
     margin-bottom: 90px;
 }
 
@@ -123,7 +136,7 @@ html {
 
   .golem-about {
     background: black;
-    height: 125vh;
+    height: 150vh;
     text-align: center;
   }
 
@@ -141,7 +154,7 @@ html {
   }
 
   .card-main {
-    margin-left: 30px;
+    margin: 0 auto;
     width: 170px;
     word-wrap: break-word;
   }
@@ -150,7 +163,8 @@ html {
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    margin: 0 0 0 10px;
+    margin: 0 auto;
   }
 }
+
 
