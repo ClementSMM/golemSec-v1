@@ -20,17 +20,17 @@ const Contact = () => {
 
   return (
     <div id="contact"className="golem-contact">
-      <div className="contact-form-container">
+      <div className="contact-form-container" data-aos="slide-up">
         <form ref={form} onSubmit={sendEmail} className="contact-form-main">
 
           <div className="input-form">
             <label className="label-form">Nom</label>
-            <input type="text" name="user_last_name" className="input" />
+            <input type="text" name="user_last_name" className="input" required/>
           </div>
 
           <div className="input-form">
             <label className="label-form">Prénom</label>
-            <input type="text" name="user_first_name" className="input" />
+            <input type="text" name="user_first_name" className="input" required/>
           </div>
 
           <div className="input-form">
@@ -45,7 +45,7 @@ const Contact = () => {
 
           <div className="input-form">
             <label className="label-form">Status</label>
-            <select name="user_status" id="pet-select" className="input">
+            <select name="user_status" id="pet-select" className="input" required>
               <option value="">Choisissez votre status</option>
               <option value="Entreprise">Entreprise</option>
               <option value="Particulier">Particulier</option>
@@ -54,7 +54,7 @@ const Contact = () => {
 
           <div className="input-form">
             <label className="label-form">Nom de l'entreprise</label>
-            <input type="user_corp" name="user_email" className="input"/>
+            <input type="user_corp" name="user_email" className="input" required/>
           </div>
 
           <div className="input-form">
@@ -99,7 +99,7 @@ const Contact = () => {
       </div>
       
 
-      <div className="contact-txt-container">
+      <div className="contact-txt-container" data-aos="fade-left">
         <p>vnfdhjknv</p>
       </div>
     </div> 
