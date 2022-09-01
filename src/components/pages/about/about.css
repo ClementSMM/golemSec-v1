@@ -58,7 +58,7 @@ html {
 
 @media screen and (max-width: 1650px) {
   .about-text-container {
-    margin: 169px 0 0 0;
+    margin: 280px 0 0 0;
   }
 }
 
@@ -69,7 +69,7 @@ html {
   }
 
   .about-text-container {
-    margin: 135px 0 0 0;
+    margin: 205px 0 0 0;
   }
 
   .about-text-container  h1 {
@@ -90,7 +90,7 @@ html {
   .golem-about {
     background: black;
     display: block;
-    height: 60vh;
+    height: 35vh;
   }
 
   .about-text-container {
@@ -107,7 +107,7 @@ html {
   .golem-about {
     background: black;
     display: block;
-    height: 135vh;
+    height: 54vh;
     margin-bottom: 90px;
 }
 
@@ -136,7 +136,7 @@ html {
 
   .golem-about {
     background: black;
-    height: 150vh;
+    height: 45vh;
     text-align: center;
   }
 

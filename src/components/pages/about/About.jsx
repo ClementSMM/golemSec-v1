@@ -6,7 +6,7 @@ const About = () => {
 
   return(
     <div id="about" className="golem-about">
-      <div className="about-text-container" data-aos="fade-left">
+      <div className="about-text-container" >  {/* data-aos="fade-left" */}
         <div className="main-txt">
           <div className="main-txt-title">
             <h1>securite et anonimat</h1>
@@ -23,36 +23,8 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="card-master">
-          <div className="card-main">
-            <div className="card-title">
-              <h3>securite</h3>
-            </div>
-            <div className="card-txt">
-              <p>vfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoire</p>
-            </div>
-          </div>
-          <div className="card-main">
-            <div className="card-title">
-              <h3>anonymat</h3>
-            </div>
-            <div className="card-txt">
-              <p className="txt">vfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoire</p>
-            </div>
-          </div>
-          <div className="card-main">
-            <div className="card-title">
-              <h3>confidentialite</h3>
-            </div>
-            <div className="card-txt">
-              <p>vfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoirevfnjeomnveznfoire</p>
-            </div>
-          </div>
-        </div>
-     
       </div>
     </div>
-      
   )
 }
 
