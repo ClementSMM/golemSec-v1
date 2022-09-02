@@ -8,30 +8,30 @@ const Services = () => {
     <div id="service" className="golem-services">
       
       <div className="service-cards-container">
-        <div className="service-card1-main" data-aos="flip-right" >
+        <div className="service-card1-main" data-aos="flip-up" >
           <div className="title-service-card">
-            <h2>Site web</h2>
+            <h2>Web</h2>
           </div>
           <div className="text-service-card" >
-            <p>1Lorem Ipsum is simply dummy text of the printing and typesetting industry.1Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Golemsec vous propose grâce à c’est programmeurs certifier un accompagnement sur mesure pour toute création de site internet (vitrine, e -commerce, association) mais aussi pour le développement d’application . Avec nos compétences en JavaScript , Ruby , Php votre projet sera de là meilleur des qualités .</p>
           </div>
         </div> 
 
-        <div className="service-card2-main" data-aos="flip-left">
+        <div className="service-card2-main" data-aos="flip-up">
           <div className="title-service-card">
             <h2>Opsec</h2>
           </div>
           <div className="text-service-card">
-            <p>sum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Golemsec vous accompagne dans la sécurisation de vos appareils personnel et professionnel avec nos conseil en opsec sécurité . Nous proposons des formations et des produits cryptées pour particulier et pour les entreprises . Reprenez le contrôle de vos données et de votre vie privée grâce à nos conseil en opsec .</p>
           </div>
         </div> 
 
         <div className="service-card3-main" data-aos="flip-up">
           <div className="title-service-card">
-            <h2>Optimisation</h2>
+            <h2>Trafic et SEO</h2>
           </div>
           <div className="text-service-card">
-            <p>1Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Golemsec dispose d’un service rare d’optimisation de visibilité et de référencement de votre site web, grâce à Golemsec votre site gagnera en visibilité et en clientèle grâce à nos compétences de dynamisation .</p>
           </div>
         </div> 
         

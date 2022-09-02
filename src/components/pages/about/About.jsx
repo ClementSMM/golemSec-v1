@@ -6,7 +6,7 @@ const About = () => {
 
   return(
     <div id="about" className="golem-about">
-      <div className="about-text-container" >  {/* data-aos="fade-left" */}
+      <div className="about-text-container" data-aos="fade-left" >
         <div className="main-txt">
           <div className="main-txt-title">
             <h1>securite et anonimat</h1>

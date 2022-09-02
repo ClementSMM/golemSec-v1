@@ -65,6 +65,8 @@ const Contact = () => {
               <option value="site e-commerce">Site e-commerce</option>
               <option value="webApp">Application web</option>
               <option value="design">Design de site web</option>
+              <option value="design">Opsec</option>
+              <option value="design">Trafic et SEO</option>
             </select>
           </div>
           
@@ -99,10 +101,10 @@ const Contact = () => {
       </div>
       
 
-      <div className="contact-txt-container" data-aos="fade-left">
-        <p>vnfdhjknv</p>
+      {/* <div  > */}
+        <img className="contact-txt-container" src={require('../../../images/illustration/code.jpg')} alt="code" data-aos="fade-left" />
       </div>
-    </div> 
+    /* </div>  */
   );
 };
 
